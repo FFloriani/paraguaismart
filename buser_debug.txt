@@ -1,0 +1,138 @@
+
+
+=== URL: https://www.buser.com.br/api/search/origem?limit=15&origem=mogi-das-cruzes-sp&bucketizado=false ===
+METHOD: GET
+RESPONSE:
+{"id": "298", "name": "Mogi das Cruzes", "uf": "SP", "slug": "mogi-das-cruzes-sp", "sigla": "MOG", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/KUjFmvrceV-UHPfW6IWRKA4tNc4=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2023/11/30/Praca_Oswaldo_Cruz_Mogi_das_Cruzes.jpg", "label": "Mogi das Cruzes - SP", "city_name": "Mogi das Cruzes", "has_more": false, "saindo_de": []}
+
+
+=== URL: https://www.buser.com.br/api/search/destino?limit=15&destino=foz-do-iguacu-pr ===
+METHOD: GET
+RESPONSE:
+{"id": "73", "name": "Foz do Igua\u00e7u", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/hU5Kqg71-Jdh6eYgRe62OPmQd0g=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/iStock-1445841356.jpg", "label": "Foz do Igua\u00e7u - PR", "city_name": "Foz do Igua\u00e7u", "has_more": true, "indo_para": [{"id": 16, "name": "S\u00e3o Paulo", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/FXvVCkq13CGrXg8iLKgydnDimKE=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/bsr_sampa_4.png", "datetime_ida": "2026-04-09T11:00:00+00:00", "rota_id": 171911, "best_price": 212.14, "travel_count": 0, "itinerario": [{"id": 758824, "local_id": 526, "distancia_km": 0, "duracao": 0, "tempo_embarque": 0, "idx": 0, "apenas_parada": false, "is_conexao": false, "local": {"id": 526, "name": "S\u00e3o Paulo", "uf
+
+
+=== URL: https://www.buser.com.br/api/search?origemSlug=mogi-das-cruzes-sp&destinoSlug=foz-do-iguacu-pr&departureDate=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"trecho": {"origem": {"id": "298", "name": "Mogi das Cruzes", "label": "Mogi das Cruzes - SP", "uf": "SP", "slug": "mogi-das-cruzes-sp", "sigla": "MOG", "timezone": "America/Sao_Paulo", "city_name": "Mogi das Cruzes"}, "destino": {"id": "73", "name": "Foz do Igua\u00e7u", "label": "Foz do Igua\u00e7u - PR", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "city_name": "Foz do Igua\u00e7u"}}, "trecho_alternativo": null, "has_grupos": false, "is_trecho_vendido": false, "groups_by_date": [{"datetime_ida": "2026-04-09", "grupos": []}], "itinerarios": {}, "locais": {}, "locais_de_embarque": [], "locais_de_desembarque": [], "badges_by_date": {"best_price_by_date": {}, "most_comfortable_by_date": {}, "recommended_by_date": {}, "promotional_price_new_route": {}}, "grupos_recomendados": null, "destino_picture_url": "https://images.bcdn.com.br/qK6nEWnLybcQ9MyroNqKAxZKeg8=/80x80/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/iStock-144584
+
+
+=== URL: https://www.buser.com.br/api/search/conexao/v2?origem_slug=mogi-das-cruzes-sp&destino_slug=foz-do-iguacu-pr&data_ida=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"trecho": {"origem": {"id": "298", "name": "Mogi das Cruzes", "label": "Mogi das Cruzes - SP", "uf": "SP", "slug": "mogi-das-cruzes-sp", "sigla": "MOG", "timezone": "America/Sao_Paulo", "city_name": "Mogi das Cruzes"}, "destino": {"id": "73", "name": "Foz do Igua\u00e7u", "label": "Foz do Igua\u00e7u - PR", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "city_name": "Foz do Igua\u00e7u"}}, "trecho_alternativo": null, "groups_by_date": [{"datetime_ida": "2026-04-09", "grupos": []}], "itinerarios": {}, "locais": {}, "locais_de_embarque": [], "locais_de_desembarque": [], "grupos_recomendados": null, "destino_picture_url": "https://images.bcdn.com.br/qK6nEWnLybcQ9MyroNqKAxZKeg8=/80x80/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/iStock-1445841356.jpg"}
+
+
+=== URL: https://www.buser.com.br/api/search/marketplace?origem_slug=mogi-das-cruzes-sp&destino_slug=foz-do-iguacu-pr&data_ida=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"items": []}
+
+
+=== URL: https://www.buser.com.br/api/search/hit ===
+METHOD: POST
+PAYLOAD:
+------WebKitFormBoundaryLeh483ZiQnO3lrzi
+Content-Disposition: form-data; name="origem"
+
+mogi-das-cruzes-sp
+------WebKitFormBoundaryLeh483ZiQnO3lrzi
+Content-Disposition: form-data; name="destino"
+
+foz-do-iguacu-pr
+------WebKitFormBoundaryLeh483ZiQnO3lrzi
+Content-Disposition: form-data; name="data_ida"
+
+2026-04-09
+------WebKitFormBoundaryLeh483ZiQnO3lrzi--
+
+RESPONSE:
+{"users_searching": 1}
+
+
+=== URL: https://www.buser.com.br/api/get_nearby_departures?origemSlug=mogi-das-cruzes-sp&destinoSlug=foz-do-iguacu-pr&date=2026-04-09&incluirTrechoAlternativo=false ===
+METHOD: GET
+RESPONSE:
+{"dias_com_grupos": []}
+
+
+=== URL: https://www.buser.com.br/api/promo/destaque/search_result?origemSlug=mogi-das-cruzes-sp&destinoSlug=foz-do-iguacu-pr ===
+METHOD: GET
+RESPONSE:
+{}
+
+
+=== URL: https://www.buser.com.br/api/search/cidade_proxima/v2?origem_slug=mogi-das-cruzes-sp&destino_slug=foz-do-iguacu-pr&date_search=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{}
+
+
+=== URL: https://www.buser.com.br/api/search/origem?limit=15&origem=sao-paulo-sp&bucketizado=false ===
+METHOD: GET
+RESPONSE:
+{"id": "16", "name": "S\u00e3o Paulo", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/FXvVCkq13CGrXg8iLKgydnDimKE=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/bsr_sampa_4.png", "label": "S\u00e3o Paulo - SP", "city_name": "S\u00e3o Paulo", "has_more": true, "saindo_de": [{"id": 39, "name": "Rio de Janeiro", "uf": "RJ", "slug": "rio-de-janeiro-rj", "sigla": "RIO", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/uqDmKg7AR9xYs01it1EEhUcSt8k=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2025/09/10/kseniia-lobko-FR9iwdBmwgw-unsplash.jpg", "datetime_ida": "2026-04-06T13:00:00+00:00", "rota_id": 163085, "best_price": 79.91, "travel_count": 21, "itinerario": [{"id": 738634, "local_id": 514, "distancia_km": 0, "duracao": 0, "tempo_embarque": 0, "idx": 0, "apenas_parada": false, "is_conexao": false, "local": {"id": 514, "name": "S\u00e3o Paulo
+
+
+=== URL: https://www.buser.com.br/api/search/destino?limit=15&destino=foz-do-iguacu-pr ===
+METHOD: GET
+RESPONSE:
+{"id": "73", "name": "Foz do Igua\u00e7u", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/hU5Kqg71-Jdh6eYgRe62OPmQd0g=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/iStock-1445841356.jpg", "label": "Foz do Igua\u00e7u - PR", "city_name": "Foz do Igua\u00e7u", "has_more": true, "indo_para": [{"id": 16, "name": "S\u00e3o Paulo", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/FXvVCkq13CGrXg8iLKgydnDimKE=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/bsr_sampa_4.png", "datetime_ida": "2026-04-09T11:00:00+00:00", "rota_id": 171911, "best_price": 212.14, "travel_count": 0, "itinerario": [{"id": 758824, "local_id": 526, "distancia_km": 0, "duracao": 0, "tempo_embarque": 0, "idx": 0, "apenas_parada": false, "is_conexao": false, "local": {"id": 526, "name": "S\u00e3o Paulo", "uf
+
+
+=== URL: https://www.buser.com.br/api/search?origemSlug=sao-paulo-sp&destinoSlug=foz-do-iguacu-pr&departureDate=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"user_discount_experiment": {"price_ab_variant": null, "propensity_band": null}, "trecho": {"origem": {"id": "16", "name": "S\u00e3o Paulo", "label": "S\u00e3o Paulo - SP", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "city_name": "S\u00e3o Paulo"}, "destino": {"id": "73", "name": "Foz do Igua\u00e7u", "label": "Foz do Igua\u00e7u - PR", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "city_name": "Foz do Igua\u00e7u"}}, "trecho_alternativo": null, "has_grupos": true, "is_trecho_vendido": true, "groups_by_date": [{"datetime_ida": "2026-04-09", "grupos": [{"id": "szJl2e", "grupo_id": "V6XC9Q", "vagas": 13, "tipo_assento": "semi leito", "closed": false, "rota_id": 171911, "preco_rodoviaria": 112.0, "origem": {"id": 526}, "destino": {"id": 903}, "origem_id": 526, "destino_id": 903, "secundario": false, "grupo_classe_id": "LgEWr6", "grupo_classe_closed": false, "trecho_vendido_id": 1934723, "datetime_ida": "2
+
+
+=== URL: https://www.buser.com.br/api/search/conexao/v2?origem_slug=sao-paulo-sp&destino_slug=foz-do-iguacu-pr&data_ida=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"trecho": {"origem": {"id": "16", "name": "S\u00e3o Paulo", "label": "S\u00e3o Paulo - SP", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "city_name": "S\u00e3o Paulo"}, "destino": {"id": "73", "name": "Foz do Igua\u00e7u", "label": "Foz do Igua\u00e7u - PR", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "city_name": "Foz do Igua\u00e7u"}}, "trecho_alternativo": null, "groups_by_date": [{"datetime_ida": "2026-04-09", "grupos": []}], "itinerarios": {}, "locais": {}, "locais_de_embarque": [], "locais_de_desembarque": [], "grupos_recomendados": null, "destino_picture_url": "https://images.bcdn.com.br/qK6nEWnLybcQ9MyroNqKAxZKeg8=/80x80/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/iStock-1445841356.jpg"}
+
+
+=== URL: https://www.buser.com.br/api/search/marketplace?origem_slug=sao-paulo-sp&destino_slug=foz-do-iguacu-pr&data_ida=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"items": [{"id": null, "grupo_id": null, "vagas": 37, "tipo_assento": "semi leito", "closed": false, "rota_id": null, "preco_rodoviaria": 112.0, "origem": {"id": 526, "name": "S\u00e3o Paulo", "uf": "SP", "slug": "sao-paulo-sp", "sigla": "SAO", "timezone": "America/Sao_Paulo", "picture_url": "https://images.bcdn.com.br/FXvVCkq13CGrXg8iLKgydnDimKE=/400x300/https%3A//d1q5r6jf4yxfe1.cloudfront.net/public/cidade/2024/07/22/bsr_sampa_4.png", "cidade_id": 16, "slug_local": "terminal-rodoviario-barra-funda-sao-paulo-sp", "nickname": "Terminal Rodovi\u00e1rio Barra Funda", "nickname_slug": "terminal-rodoviario-barra-funda", "endereco": "Rua Jornalista Aloysio Biondi, s/n - Barra Funda", "endereco_slug": "rua-jornalista-aloysio-biondi-sn-barra-funda", "endereco_logradouro": "Rua Jornalista Aloysio Biondi", "endereco_numero": "s/n", "endereco_bairro": "Barra Funda", "bairro_slug": "barra-funda", "endereco_cep": "01140151", "description": "", "description_ao": null, "aceita_embarque_ao": false, 
+
+
+=== URL: https://www.buser.com.br/api/search/promo_trechos?origem_slug=sao-paulo-sp&destino_slug=foz-do-iguacu-pr ===
+METHOD: GET
+RESPONSE:
+{"trechos": [], "discount": 0}
+
+
+=== URL: https://www.buser.com.br/api/search/hit ===
+METHOD: POST
+PAYLOAD:
+------WebKitFormBoundaryykHLG05lzpIMUGzN
+Content-Disposition: form-data; name="origem"
+
+sao-paulo-sp
+------WebKitFormBoundaryykHLG05lzpIMUGzN
+Content-Disposition: form-data; name="destino"
+
+foz-do-iguacu-pr
+------WebKitFormBoundaryykHLG05lzpIMUGzN
+Content-Disposition: form-data; name="data_ida"
+
+2026-04-09
+------WebKitFormBoundaryykHLG05lzpIMUGzN--
+
+RESPONSE:
+{"users_searching": 6}
+
+
+=== URL: https://www.buser.com.br/api/promo/destaque/search_result?origemSlug=sao-paulo-sp&destinoSlug=foz-do-iguacu-pr ===
+METHOD: GET
+RESPONSE:
+{}
+
+
+=== URL: https://www.buser.com.br/api/search/cidade_proxima?origem_slug=sao-paulo-sp&destino_slug=foz-do-iguacu-pr&date_search=2026-04-09 ===
+METHOD: GET
+RESPONSE:
+{"origem": {"id": "35", "name": "S\u00e3o Jos\u00e9 dos Campos", "label": "S\u00e3o Jos\u00e9 dos Campos - SP", "uf": "SP", "slug": "sao-jose-dos-campos-sp", "sigla": "SJK", "timezone": "America/Sao_Paulo", "city_name": "S\u00e3o Jos\u00e9 dos Campos"}, "destino": {"id": "73", "name": "Foz do Igua\u00e7u", "label": "Foz do Igua\u00e7u - PR", "uf": "PR", "slug": "foz-do-iguacu-pr", "sigla": "FIC", "timezone": "America/Sao_Paulo", "city_name": "Foz do Igua\u00e7u"}, "trecho": {"id": "AgiUsB", "tipo_assento": "semi leito", "datetime_ida": "2026-04-09T16:00:00-03:00", "modelo_venda": "marketplace", "price": 454.3, "old_price": 454.3, "datetime_chegada": "2026-04-10T11:25:00-03:00", "vagas": 30}}

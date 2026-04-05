@@ -1,0 +1,709 @@
+[
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asa",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20la",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 2158
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20lata",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20lataf",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/busca/?q=asad+lataffa",
+    "mimeType": "text/html",
+    "postData": null,
+    "size": 360846
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20lataffa",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/autocomplete/json/?q=asad%20lataffa",
+    "mimeType": "application/json",
+    "postData": null,
+    "size": 297
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/tablet_apple_ipad_11a_geracao_2025_128gb_11_185201_8f5fedaf-3edf-4ad8-85a3-022ee1100cac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 11306
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/notebook_apple_macbook_air_2025_apple_m4_memoria_16gb_ssd_256gb_136_186062_b1270bec-24f7-4a96-9b39-06fe377a58ac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 26368
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/nintendo_switch_2_256gb_188077_fdf0df0f-3ece-47da-be59-186533521b31.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 7800
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_256gb_193039_e78757a2-8cea-43bc-9876-3bce90dcb1ac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12014
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_256gb_193041_9706ef96-5177-4886-bfb3-ce1f324d8755.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 13028
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_256gb_193108_1e516bd4-28a1-4e69-80bc-f5bf373e14f1.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_512gb_193111_74f706e9-04ff-4ebc-b883-a8d507be09ad.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_xiaomi_poco_x8_pro_max_dual_chip_512gb_5g_global_198272_b5f652c6-9c77-41d1-aa91-9d3fcd57f4fe.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 12532
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/brand/luxor_a50f1301-66df-49a9-8a5d-d8572926ad84.small.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 952
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/joog_84f08590-42bd-43b5-bb96-b6b9b159151a.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1188
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/nintendo_761a3b34-e1dd-483d-a851-61d02c027b3c.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1236
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/microsoft_c8ae0be1-ece1-4c7a-b0b9-65de0dd21bc0.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 600
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/adidas_0e4507c9-0ed8-44dc-a6d8-98a8655075bd.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 508
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/hydrant_68b42a3b-c63e-48b2-a9a3-f2a3cfb56dda.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 892
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/lattafa_2d8cdb9b-7224-4e75-aa40-b02b18293cbb.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 866
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/paco_rabanne_3a105290-5f94-4f95-aa6e-b0ba21936727.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1340
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/jbl_eedc3fc5-191b-4db7-8d9d-c5cfa4f59fc7.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 662
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/canon_6c8a4f9b-a69c-4e24-9bd0-f7704850aa97.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 986
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/brand_collection_eafe3a3b-5135-44cc-a02a-a61cc2183528.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 924
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/fragrance_world_7c457d45-6ed9-4337-b452-16dcd0545756.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1082
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/apple_f10265c0-7088-4435-b8f1-9f0541d94e1c.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1456
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/samsung_6b8b72e6-5ffc-4d32-a40a-a145c78ffae8.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1140
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/xiaomi_cd0d548e-d3e1-4d6e-802f-147f51039d21.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 450
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/270x100pt_ec4a68b9-dc1c-4351-bd54-ab718f3e806d.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 6079
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/banners/mobile/dektop_busca_regex_termo_lattafa_lattaffa_lataffa_latafa_desktop_esquerda_quadrado_agatres_7a344b0e1fd442c0b342e77740bf040a.webp",
+    "mimeType": "application/octet-stream",
+    "postData": null,
+    "size": 5876
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/banners/mobile/dektop_busca_regex_termo_lattafa_lattaffa_lataffa_latafa_desktop_direita_quadrado_agatres_d850250c61914a539c48f1320805a885.webp",
+    "mimeType": "application/octet-stream",
+    "postData": null,
+    "size": 14208
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/tablet_apple_ipad_11a_geracao_2025_128gb_11_185201_8f5fedaf-3edf-4ad8-85a3-022ee1100cac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 11306
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/notebook_apple_macbook_air_2025_apple_m4_memoria_16gb_ssd_256gb_136_186062_b1270bec-24f7-4a96-9b39-06fe377a58ac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 26368
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_256gb_193041_9706ef96-5177-4886-bfb3-ce1f324d8755.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 13028
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_256gb_193108_1e516bd4-28a1-4e69-80bc-f5bf373e14f1.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_512gb_193111_74f706e9-04ff-4ebc-b883-a8d507be09ad.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_xiaomi_poco_x8_pro_max_dual_chip_512gb_5g_global_198272_b5f652c6-9c77-41d1-aa91-9d3fcd57f4fe.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 12532
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Regular.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 609600
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/icomoon.ttf?tf073p&12b6fb03c151",
+    "mimeType": "font/ttf",
+    "postData": null,
+    "size": 21968
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Bold.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 631880
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-SemiBold.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 629912
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/icomoon2.ttf?7yucir&12b6fb03c151",
+    "mimeType": "font/ttf",
+    "postData": null,
+    "size": 1160
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Medium.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 627988
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_lattafa_asad_elixir_eau_de_parfum_masculino_100ml_194115_60888755-019d-4d3d-b106-c0dc913929af.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 16846
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/popuptodaspaginas/generated_107_copy_0bfb32cf-784e-458d-85a1-2ee914700116.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 24337
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/perfume-lattafa-asad-eau-de-parfum-masculino-100ml_52480/",
+    "mimeType": "text/html",
+    "postData": null,
+    "size": 676770
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/tablet_apple_ipad_11a_geracao_2025_128gb_11_185201_8f5fedaf-3edf-4ad8-85a3-022ee1100cac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 11306
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/notebook_apple_macbook_air_2025_apple_m4_memoria_16gb_ssd_256gb_136_186062_b1270bec-24f7-4a96-9b39-06fe377a58ac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 26368
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/nintendo_switch_2_256gb_188077_fdf0df0f-3ece-47da-be59-186533521b31.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 7800
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_256gb_193039_e78757a2-8cea-43bc-9876-3bce90dcb1ac.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12014
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_256gb_193041_9706ef96-5177-4886-bfb3-ce1f324d8755.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 13028
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_256gb_193108_1e516bd4-28a1-4e69-80bc-f5bf373e14f1.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_apple_iphone_17_pro_max_512gb_193111_74f706e9-04ff-4ebc-b883-a8d507be09ad.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 12640
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/celular_xiaomi_poco_x8_pro_max_dual_chip_512gb_5g_global_198272_b5f652c6-9c77-41d1-aa91-9d3fcd57f4fe.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 12532
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/brand/luxor_a50f1301-66df-49a9-8a5d-d8572926ad84.small.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 952
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/joog_84f08590-42bd-43b5-bb96-b6b9b159151a.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1188
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/nintendo_761a3b34-e1dd-483d-a851-61d02c027b3c.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1236
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/microsoft_c8ae0be1-ece1-4c7a-b0b9-65de0dd21bc0.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 600
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/adidas_0e4507c9-0ed8-44dc-a6d8-98a8655075bd.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 508
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/hydrant_68b42a3b-c63e-48b2-a9a3-f2a3cfb56dda.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 892
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/lattafa_2d8cdb9b-7224-4e75-aa40-b02b18293cbb.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 866
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/paco_rabanne_3a105290-5f94-4f95-aa6e-b0ba21936727.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1340
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/jbl_eedc3fc5-191b-4db7-8d9d-c5cfa4f59fc7.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 662
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/canon_6c8a4f9b-a69c-4e24-9bd0-f7704850aa97.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 986
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/brand_collection_eafe3a3b-5135-44cc-a02a-a61cc2183528.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 924
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/fragrance_world_7c457d45-6ed9-4337-b452-16dcd0545756.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1082
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/apple_f10265c0-7088-4435-b8f1-9f0541d94e1c.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1456
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/samsung_6b8b72e6-5ffc-4d32-a40a-a145c78ffae8.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 1140
+  },
+  {
+    "method": "GET",
+    "url": "https://us-southeast-1.linodeobjects.com/media-production-bucket/com/media/uploads/pesquisa/brand/xiaomi_cd0d548e-d3e1-4d6e-802f-147f51039d21.small.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 450
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/270x100pt_ec4a68b9-dc1c-4351-bd54-ab718f3e806d.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 6079
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/banner_728x90_topo_produto_pt_cb537cee-3dec-4939-8a29-02dca93f929f.avif",
+    "mimeType": "x-unknown",
+    "postData": null,
+    "size": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/banner_meio_perfume__be246840-5eac-4a89-b1aa-5dab10483c26.gif",
+    "mimeType": "image/gif",
+    "postData": null,
+    "size": 119007
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/banner_categoria_perfumes_4eba05c6-cdd8-403c-8cb6-a68b6494f500.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 17822
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Regular.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 609600
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/icomoon.ttf?tf073p&12b6fb03c151",
+    "mimeType": "font/ttf",
+    "postData": null,
+    "size": 21968
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Bold.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 631880
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-SemiBold.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 629912
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/banner_lateral_modelos_perfume_desktop_160x600_pixels_618370f2-fd91-4318-97a0-a9a1a1ce418e.gif",
+    "mimeType": "x-unknown",
+    "postData": null,
+    "size": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_laffair_tofy_milky_vanilla_eau_de_parfum_unissex_100ml_198831_a3921add-28b5-4e46-a46d-c50311794f45.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 41003
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_laffair_symphony_notte_eau_de_parfum_unissex_100ml_198832_46b31885-082c-4fc7-91ec-3a7f42b6da0b.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 37089
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_hybah_amarah_eau_de_parfum_masculino_100ml_198833_db43b2cd-17e0-47e6-ba6b-16b964e56784.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 54926
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_amarah_washah_eau_de_parfum_masculino_100ml_198834_8ac59754-d353-4f6e-89ac-f18fa54fa163.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 76634
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_amarah_lara_eau_de_parfum_feminino_100ml_198835_5a3ff0a9-e297-425c-a49e-617cada26f73.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 35569
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_amarah_ruby_eau_de_parfum_feminino_100ml_198836_89d6f9d1-efe6-41f2-80d8-9971d48a4d12.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 65882
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_fakher_eau_de_parfum_masculino_100ml_198838_8a9935d9-5242-4b7d-8bcc-6580b360eeca.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 55906
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_shamikh_eau_de_parfum_masculino_100ml_198839_704aa109-a983-42d6-b9c0-76f9dbfb36f1.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 62873
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_almas_kuwaiti_eau_de_parfum_unissex_100ml_198840_04f6a9fe-9a9a-4996-aef2-097c3aa031e9.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 68777
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/modelos/perfume_dar_el_ward_ayman_eau_de_parfum_masculino_100ml_198901_f2ab800c-dea2-4fcb-bcad-efd0aafab059.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 30248
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/banneritem/banner_lateral_modelos_perfume_desktop_160x600_pixels_618370f2-fd91-4318-97a0-a9a1a1ce418e.gif",
+    "mimeType": "x-unknown",
+    "postData": null,
+    "size": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://www.comprasparaguai.com.br/static/fonts/Inter-Medium.otf?a4e7201f6946",
+    "mimeType": "font/opentype",
+    "postData": null,
+    "size": 627988
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/produtos/thumbs/med/acb40617ed8c22356acfe82ffa60bc7e407116b4.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 2444
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/lojas/elegancia_company_173_120x120.webp",
+    "mimeType": "application/octet-stream",
+    "postData": null,
+    "size": 1516
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/produtos/thumbs/med/8122392c1a8a61623de0a748b5aefadd92ca4c37.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 4774
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/lojas/shopping_china_168_120x120.webp",
+    "mimeType": "application/octet-stream",
+    "postData": null,
+    "size": 1904
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/produtos/thumbs/med/6f76b31309c42e8a40c5e93e25fe8d5fa1c204b4.webp",
+    "mimeType": "image/webp",
+    "postData": null,
+    "size": 4182
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/fotos/lojas/toku_importados_166_120x120.webp",
+    "mimeType": "application/octet-stream",
+    "postData": null,
+    "size": 1620
+  },
+  {
+    "method": "GET",
+    "url": "https://media-production-bucket.us-southeast-1.linodeobjects.com/com/media/uploads/popuptodaspaginas/generated_112_copy_53cf5285-1a7f-42f2-b351-2cdf3f640984.avif",
+    "mimeType": "image/avif",
+    "postData": null,
+    "size": 15257
+  }
+]
