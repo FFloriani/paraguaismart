@@ -10,12 +10,14 @@ export async function GET(request: Request) {
   }
 
   try {
-    const url = `https://www.comprasparaguai.com.br/${slug}/`;
-    const res = await fetch(url, {
+    const targetUrl = `https://www.comprasparaguai.com.br/${slug}/`;
+    const proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(targetUrl);
+
+    const res = await fetch(proxyUrl, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html',
-        'Accept-Language': 'pt-BR,pt;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
       },
     });
 
@@ -124,7 +126,7 @@ export async function GET(request: Request) {
         imageUrl: mainImage,
         minPriceUsd: lowestOffer && lowestOffer.priceUsd !== 'N/A' ? lowestOffer.priceUsd : 'N/A',
         minPriceBrl: lowestOffer && lowestOffer.priceBrl !== 'N/A' ? lowestOffer.priceBrl : 'N/A',
-        sourceUrl: url,
+        sourceUrl: targetUrl,
       },
       offers,
       totalOffers: offers.length,
