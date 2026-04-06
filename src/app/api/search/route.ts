@@ -10,23 +10,19 @@ export async function GET(request: Request) {
   }
 
   try {
-    // Volta a tentar bater direto para ver se o proxy Brasil passa 
+    // Proxy REAL que não é bloqueado pela Cloudflare
     const targetUrl = 'https://www.comprasparaguai.com.br/busca/?q=' + encodeURIComponent(q);
+    const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(targetUrl);
 
     const headers = {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     };
 
-    const res = await fetch(targetUrl, { headers });
+    const res = await fetch(proxyUrl, { headers });
     const html = await res.text();
     const $ = cheerio.load(html);
 
     const products: any[] = [];
-    
-    // MOCK FALLBACK
-    const isCloudflareBlocked = html.includes('Just a moment') || html.includes('Cloudflare');
 
     // Cada produto está num div.col dentro de #resultado-busca-container .row
     // O preço fica NO PRÓPRIO COL (fora do .promocao-item-info), por isso precisamos iterar o col inteiro
@@ -94,15 +90,6 @@ export async function GET(request: Request) {
         });
       }
     });
-
-    if (products.length === 0 || isCloudflareBlocked) {
-      // Mock Data to keep the Presentation Prototype working visually!
-      products.push(
-        { id: 1, title: `${q.toUpperCase()} Original Lacrado`, slug: `${q.replace(/ /g, '-')}-mock1`, imageUrl: "https://im.comprasparaguai.com.br/WnZlEw-k-bQp8n2G47n23H48zK0=/500x500/https://static.comprasparaguai.com.br/produtos/perfume-lattafa-asad-eau-de-parfum-masculino-100-ml_c35b40df13a10e16e7989ad63251ab23548495.webp", minPriceUsd: "25.00", minPriceBrl: "128.75", storesCount: 5, resellProfitBrl: 120 },
-        { id: 2, title: `Kit Especial ${q} (Importado)`, slug: `${q.replace(/ /g, '-')}-mock2`, imageUrl: "https://im.comprasparaguai.com.br/WnZlEw-k-bQp8n2G47n23H48zK0=/500x500/https://static.comprasparaguai.com.br/produtos/perfume-lattafa-asad-eau-de-parfum-masculino-100-ml_c35b40df13a10e16e7989ad63251ab23548495.webp", minPriceUsd: "28.50", minPriceBrl: "146.77", storesCount: 2, resellProfitBrl: 150 },
-        { id: 3, title: `${q} Promocional CDE`, slug: `${q.replace(/ /g, '-')}-mock3`, imageUrl: "https://im.comprasparaguai.com.br/WnZlEw-k-bQp8n2G47n23H48zK0=/500x500/https://static.comprasparaguai.com.br/produtos/perfume-lattafa-asad-eau-de-parfum-masculino-100-ml_c35b40df13a10e16e7989ad63251ab23548495.webp", minPriceUsd: "22.00", minPriceBrl: "113.30", storesCount: 8, resellProfitBrl: 125 }
-      );
-    }
 
     return NextResponse.json({ results: products, query: q, total: products.length });
   } catch (error) {

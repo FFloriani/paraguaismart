@@ -11,13 +11,11 @@ export async function GET(request: Request) {
 
   try {
     const targetUrl = `https://www.comprasparaguai.com.br/${slug}/`;
-    const proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(targetUrl);
+    const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(targetUrl);
 
     const res = await fetch(proxyUrl, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
       },
     });
 
@@ -119,18 +117,6 @@ export async function GET(request: Request) {
     });
 
     let lowestOffer = offers.length > 0 ? offers[0] : null;
-
-    if (offers.length === 0 || html.includes('Just a moment') || html.includes('Cloudflare')) {
-      // Mock stores para manter a apresentação visual no ar!
-      offers.push(
-        { id: 1, name: "Visa Shopping", priceUsd: "25.00", priceBrl: "128.75", link: "#", stock: "Disponível", whatsapp: "551199999999" },
-        { id: 2, name: "Cellshop", priceUsd: "25.50", priceBrl: "131.33", link: "#", stock: "Últimas unidades", whatsapp: "551199999999" },
-        { id: 3, name: "Nissei", priceUsd: "28.00", priceBrl: "144.20", link: "#", stock: "Disponível", whatsapp: "551199999999" }
-      );
-      if (!mainTitle || mainTitle.trim() === '') mainTitle = 'Perfume Lattafa Asad (Mockado pela Nuvem)';
-      if (!mainImage) mainImage = 'https://im.comprasparaguai.com.br/WnZlEw-k-bQp8n2G47n23H48zK0=/500x500/https://static.comprasparaguai.com.br/produtos/perfume-lattafa-asad-eau-de-parfum-masculino-100-ml_c35b40df13a10e16e7989ad63251ab23548495.webp';
-      if (!lowestOffer) lowestOffer = { priceUsd: "25.00", priceBrl: "128.75" };
-    }
 
     return NextResponse.json({
       product: {
